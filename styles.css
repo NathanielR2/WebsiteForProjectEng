@@ -1,0 +1,93 @@
+html{
+    scroll-behavior: smooth;
+}
+head{
+    background-color:black;
+}
+h1{
+    background-color:#070600;
+    padding:25px 0px;
+    color:white;
+    text-align:center;
+    margin:0%;
+}
+body {
+    color: black;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    background-color:white;
+}
+div.Banner{
+    background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F009%2F982%2F194%2Foriginal%2Fschool-abstract-background-banner-with-school-supplies-on-black-background-back-to-school-vector.jpg&f=1&nofb=1&ipt=c18880855306c06bc22e76ed400027298786b426f2c86fedf91dc6bf17713565&ipo=images");
+    height:100px;
+    max-width:100%;
+    margin:0%;
+}
+p.intro
+{
+    background-color:white;
+    font-size:1.5em;
+    margin:0%;
+    padding:10px
+}
+#c_g1
+{
+    
+    height:fit-content;
+    width:fit-content;
+    text-align: left;
+    
+}
+#c_i1
+{
+    
+    height: fit-content;
+    align-content:right;
+    
+}
+.contL
+{
+    display: grid;
+    align-items: center;
+    grid-template-columns: .9fr 1fr;
+    column-gap: 5px;
+    
+}
+.findingsGal
+{
+    margin:0%;
+    height:fit-content;
+}
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #c7bfbf;
+}
+.tab button {
+    background-color: ghostwhite;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    color:black;
+}
+.tab button:hover {
+    background-color: #ddd;
+}
+.tab button.active {
+    background-color: #ccc;
+}
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    font-size: 1.5em;
+    background-color: #547AA5;
+}
+footer{
+    font-size:1.2em;
+    
+}
